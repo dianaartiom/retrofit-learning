@@ -14,4 +14,19 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Hello World!" />
+
+    <TextView
+        android:layout_below="@+id/tv"
+        android:id="@+id/dv"
+        android:layout_width="wrap_content"
+        android:text="comment for post 1"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/xv"
+        android:textColor="#ff0000"
+        android:text="@string/lorepsum_ipsum"
+        android:layout_below="@+id/dv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
 </RelativeLayout>
